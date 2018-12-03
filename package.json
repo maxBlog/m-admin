@@ -2,6 +2,9 @@
   "name": "a",
   "version": "0.1.0",
   "private": true,
+  "theme": {
+    "primary-color": "#FF5722"
+  },
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
@@ -116,5 +119,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
   }
 }
