@@ -287,6 +287,14 @@ module.exports = {
               importLoaders: 1,
             }),
           },
+          {
+            test: /\.styl$/,
+            use: [
+              "style-loader",
+              "css-loader",
+              "stylus-loader"
+            ]
+          },
           // Adds support for CSS Modules (https://github.com/css-modules/css-modules)
           // using the extension .module.css
           {
